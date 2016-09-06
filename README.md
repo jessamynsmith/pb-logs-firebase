@@ -8,7 +8,7 @@ Use Firebase to store and track conversation logs between your Pandorabot and yo
 ```
 git clone https://github.com/djfdev/pb-logs-firebase.git
 cd pb-logs-firebase
-bower install
+npm install
 ```
 
 Make sure to include your root Firebase URL in both `js/user.js` and `js/log.js`:
@@ -28,3 +28,11 @@ var pb = new Pandorabot("aiaas.pandorabots.com", APP_ID, BOTNAME, USER_KEY);
 ```
 
 Note: `talk.js` requires cookies, so you must enable file cookies in your browser or use a server.
+
+To run the server:
+
+```
+node server.js
+```
+
+Then in your browser, go to: http://localhost:8001/

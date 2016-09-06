@@ -1,9 +1,10 @@
 {
   "name": "pb-logs-firebase",
   "version": "0.0.1",
-  "homepage": "https://github.com/djfdev/pb-logs-firebase",
+  "homepage": "https://github.com/jessamynsmith/pb-logs-firebase",
   "authors": [
-    "djf <djfdev@gmail.com>"
+    "djf <djfdev@gmail.com>",
+    "Jessamyn <jessamyn.smith@gmail.com>"
   ],
   "license": "MIT",
   "private": true,
